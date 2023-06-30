@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\CesarG\Documents\GitHub\ProyectoIntegrador-Python-DarkCode\django-crud-auth\venv"
+VIRTUAL_ENV="D:\django-crud-auth\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
