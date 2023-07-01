@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Pedir turnos</h1>
+<h3>Mantén tu cuenta actualizada</h3>
+
+{{error}}
+<form action="/tasks/create/" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <button>
+            Save
+        </button>
+</form>
+
+{% endblock %}

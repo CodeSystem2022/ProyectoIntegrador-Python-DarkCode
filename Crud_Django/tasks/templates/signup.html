@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class=" container">
+    <div class="row">
+        <div class=" col-md-4">
+            <form method="post" class= " card card-body">
+                <h1>Crear una cuenta nueva</h1>
+                <h3>Sé parte del cambio</h3>
+                {{error}}
+                {%csrf_token%}
+                {{form.as_p}}
+            
+                <button>
+                    Registrarse 
+                </button>
+            </form>
+
+        </div>
+        
+    </div>
+    
+
+</main>
+
+
+{% endblock %}
