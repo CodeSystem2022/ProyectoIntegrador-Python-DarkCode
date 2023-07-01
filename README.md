@@ -13,15 +13,15 @@ Bienvenidos al repositorio del grupo DarkCode creado exclusivamente para el proy
 
 | Item      | Nombre y Apellido     | GitHub  |
 | --------- |:---------------------:| -------:|
-| 1         | `Federico Sosa`       |    https://github.com/FedeSosa0021     |
-| 2         | `Gabriela Manca`      |    https://github.com/gabbylinna    |
-| 3         | `Gustavo Cesaretti`   |    https://github.com/Guzce    |
-| 4         | `Javier Brega`        |    https://github.com/javierbrega    |
-| 5         | `Juan Ignacio Sorato` |    https://github.com/seba0021    |
+| 1         | `Federico Sosa`       |    https://github.com/FedeSosa0021    |
+| 2         | `Gabriela Manca`      |    https://github.com/gabbylinna      |
+| 3         | `Gustavo Cesaretti`   |    https://github.com/Guzce           |
+| 4         | `Javier Brega`        |    https://github.com/javierbrega     |
+| 5         | `Juan Ignacio Sorato` |    https://github.com/seba0021        |
 | 6         | `Sebastián García`    |    https://github.com/Juanisorato21   |
 
 
-| Profesor        | `Ariel betancud`    |    https://github.com/ArielBetancud22   |
+| Profesor  | `Ariel betancud`      |    https://github.com/ArielBetancud22 |
 
 ## Un poco de historia
 
