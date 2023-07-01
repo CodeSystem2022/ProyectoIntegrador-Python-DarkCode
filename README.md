@@ -7,7 +7,7 @@
 
 ## Presentación
 
-Bienvenidos al repositorio del grupo DarkCode creado exclusivamente para el proyecto integrador del 3°er semestre en Python para la UTN (Universidad Tecnologica Nacional) con la supervisión del Profesor 𝐀𝐫𝐢𝐞𝐥 B𝐞𝐭𝐚𝐧𝐜𝐮𝐝. 
+Bienvenidos al repositorio del grupo DarkCode creado exclusivamente para el proyecto integrador del 3°er semestre en Python para la UTN (Universidad Tecnologica Nacional) con la supervisión del Profesor 𝐀𝐫𝐢𝐞𝐥 B𝐞𝐭𝐚𝐧𝐜𝐮𝐝.
 
 ## Integrantes
 
