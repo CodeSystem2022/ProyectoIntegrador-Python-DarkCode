@@ -86,3 +86,4 @@ Adjuntamos el link para ingresar al Board de trabajo del proyecto.
 
 
 𝑪𝒐𝒏 𝒆𝒍 𝒂𝒑𝒐𝒚𝒐 𝒅𝒆 <p align="left"> <a href="https://www.frsr.utn.edu.ar/" target="_blank" rel="noreferrer"> <img src="https://i.postimg.cc/hv66mk8H/utn.png" alt="git" width="800" height="200"/> </a> </p>
+
