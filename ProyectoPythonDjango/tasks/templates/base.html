@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkTask</title>
+    <script src="https://kit.fontawesome.com/1d5555c7d8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="{% static 'images/icono6.png'%}">
+    <link rel="stylesheet" href="{% static 'css/estilo1.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="contendor">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand text-light fw-bold fst-italic" href="/"><samp class="icono">></samp>DARKCODE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                
+                
+                {% if user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'tasks' %}">Tareas Pendientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks_compleated">Tareas Completada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tasks/create/">Crear tarea</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">Salir</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/info">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/signup">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/signin">Ingresar</a>
+                </li>
+                {% endif %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    {% block content %}
+      
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>Dark Code Sof.</h3>
+            <p>Desarrolladores de programas!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a>
+                <li><a href="https://github.com/Darkcode-Team" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+            </li>
+            </ul>
+        </div>
+        <div class="footer_bottom text-center">
+            <p>Todos los derechos reservados &copy; 2023 
+            <b>DarkCode Soft.</b>
+        </div>
+    </footer>
+</body>
+</html>
