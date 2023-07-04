@@ -1,0 +1,38 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+
+<main class="container">
+  <header class="d-flex flex-wrap">
+      <div class="col-md-3 my-0">
+        <img src='{% static "images/logo1.png" %}' alt="Logo" width="400" height="400" class="rounded-3">
+      </div>
+      <section class="col-md-4 my-5 offset-md-4">
+        <form action="/signin/" method="POST" class="carta-transparente text-light">
+          <h1 class="text-center">Ingresar</h1>
+          {{error}} {% csrf_token %}
+  
+          <div class="mb-3">
+            <label for="username">Usuario:</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              class="form-control"
+              placeholder="Ingrese su usuario"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="password">Constraseña:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-control"
+              placeholder="Ingrese su contraseña"
+            />
+          </div>
+          <button class="btn btn-primary">Entrar</button>
+        </form>
+      </section>
+  </header>
+</main>
+{% endblock %}

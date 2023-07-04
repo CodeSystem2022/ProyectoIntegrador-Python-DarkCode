@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html,body{
+    height: 100%;
+}
+body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-transparente {
+    background-color: transparent; /* Establece el fondo transparente */
+    box-shadow: none; /* Elimina cualquier sombra de la barra de navegación */
+}
+.carta-transparente {
+    background-color: transparent; /* Establece el fondo transparente */
+    border: none; /* Elimina el borde de la carta */
+    box-shadow: none; /* Elimina cualquier sombra de la carta */
+}
+.icono{
+    font-size: 25px;
+}
+main{
+    flex: 1;
+    min-height: calc(100%-80px);
+}
+footer{
+    margin-top: 20px;
+    position: relative;
+    background: #111;
+    opacity: 90%;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 25px;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.footer-content h3{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: rgb(243, 27, 27);
+}
+.footer_bottom{
+    background: #000;
+    width: 100%;
+    padding: 1px 0;
+    text-align: center;
+}
+.footer_bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer_bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.integrantes {
+    line-height: 200%;
+}
+.integrantes ul a{
+    color: #000;
+}
